@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int x;
+printf("Enter value of x between 1 to 5:");
+scanf("%d", &x);
+
+switch(x)
+{
+case 1: printf("PIZZA-Rs 239");
+break;
+
+case 2: printf("BURGER-Rs 129");
+break;
+
+case 3: printf("PASTA:Rs 179");
+break;
+
+case 4: printf("FRENCH FRIES-Rs 99");
+break;
+
+case 5: printf("SANDWICH-Rs 149");
+break;
+}
+return 0;
+}
